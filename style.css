@@ -93,7 +93,7 @@ html {
     width: 300px;
     background: none;
     cursor: crosshair;
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(3px);
     text-shadow: -1px -2px 3px black
 }
 
