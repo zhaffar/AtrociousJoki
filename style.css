@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap');
+
+@font-face {
+    font-family: howdy-lemon;
+    src: url('Howdy\ Lemon.ttf');
+}
+@font-face {
+    font-family: main-ayam;
+    src: url('Play\ Chickens.ttf');
+}
+
+
+body {
+    background-image: url(/pexels-lulizler-3165335.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+html {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#bg-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.container.vid {
+    z-index: -500;
+    backdrop-filter: blur(10px);
+    min-height: 100vh;
+    min-width: 100vw;
+
+}
+
+.h2 {
+    font-family: monospace;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -15px;
+    color: rgb(245, 254, 255);
+    text-shadow: -1px -2px 1px black
+}
+
+.deskripsi {
+    font-size: 17px;
+    color: rgb(235, 254, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-shadow: -1px -2px 1px black
+}
+
+.container-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.logo {
+    border-radius: 90px;
+}
+
+.container-tombol {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    flex-direction: column;
+}
+
+.button {
+    font-family: main-ayam;
+    font-size: medium;
+    color: rgb(230, 253, 255);
+    border-radius: 20px;
+    height: 45px;
+    width: 300px;
+    background: none;
+    cursor: crosshair;
+    backdrop-filter: blur(2px);
+    text-shadow: -1px -2px 3px black
+}
+
+a[href] {
+    text-decoration: none;
+    text-decoration-line: none;
+}
